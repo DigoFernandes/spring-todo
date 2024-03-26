@@ -17,6 +17,13 @@ public class Todo {
     private boolean concluido;
     private int prioridade;
     
+   
+    public Todo(String nome, String descricao, boolean concluido, int prioridade) {
+        this.nome = nome;
+        this.descricao = descricao;
+        this.concluido = concluido;
+        this.prioridade = prioridade;
+    }
     public Long getId() {
         return id;
     }
